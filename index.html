@@ -51,10 +51,6 @@
                     border-radius: 2px 10px 1px 0;
                 }
         
-                .container {
-                    display: none;
-                }
-        
                 .base span {
                     position: absolute;
                     width: 0;
@@ -296,41 +292,7 @@
     </head>
     
     <body>
-    
-        <!-- <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Alvin Nguyen</a>
-            
-                
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-                    <span class="navbar-toggler-icon" href="#"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">Projects</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Project 1</a>
-                                <a class="dropdown-item" href="#">Project 2</a>
-                                <a class="dropdown-item" href="#">Project 3</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div> -->
-
-        <div class="container" style="display:block;">
+        <div class="container">
             <div class="box_wrapper">
                 <div class="box">
                     <div class="backgroundAvatar">
@@ -338,9 +300,9 @@
                             <img class="avatar" src="static/IMG_3902.JPG">
                         </div>
                     </div>
-                    <div class="desc">
+                    <div class="description">
                         <h1>Alvin Nguyen</h1>
-                        <p>Solution Engineer</p>
+                        <h3>Solution Engineer</h3>
                     </div>
                 </div>
             </div>
@@ -352,109 +314,54 @@
                             <i class="fas fa-user">
                             </i>
                         </span>
-                        <input type="radio" id="tab-2" name="tab" checked="checked">
+                        <input type="radio" id="tab-2" name="tab">
                         <span href="#tab-item-2">
                             <i class="fas fa-code">
                             </i>
                         </span>
-                        <input type="radio" id="tab-3" name="tab" checked="checked">
+                        <input type="radio" id="tab-3" name="tab">
                         <span href="#tab-item-3">
                             <i class="fas fa-globe">
                             </i>
                         </span>
-                        <input type="radio" id="tab-4" name="tab" checked="checked">
+                        <input type="radio" id="tab-4" name="tab">
                         <span href="#tab-item-4">
                             <i class="fas fa-mail-bulk">
                             </i>
                         </span>
                         <div class="line ease"></div>
                         <div class="tab-content">
-                            <section id="tab-item-1"></section>
-                            <section id="tab-item-2"></section>
+                            <section id="tab-item-1">Hello! My name is Alvin Nguyen and I am currently a 
+                                <span style = "color:red;">Cloud Solutions Engineer</span> at <a href="https://www.oracle.com/index.html">Oracle</a>, 
+                                where we utilize modern cloud computing to help Oracle customers across all industries in North America.
+                                <br>
+                                <br>I graduated from the University of California, Riverside in 2013 with a Bachelor's in Biology. However, 
+                                my growing interest in the field of technology and computer science drove me to pursue and complete
+                                my second Bachelor's at the University of California, Irvine in 2017. 
+
+                                <br><br>
+                                My interests outside of work include: playing tennis, solving riddles and puzzles, playing piano and 
+                                video games.
+                            </section>
+                            <section id="tab-item-2">
+                                <span id="tab-title" style="color:red;text-align:left;">R-IoT</span> 
+                                <span id="tab-title">(placeholder)</span>
+                                <span id="tab-title" style="color:red;">Fabflix</span>
+                                <span id="tab-title">(placeholder)</span>
+                                <span id="tab-title" style="color:red;">Thales: Project Arduino</span>
+                                <span id="tab-title">Competed in Thales' Project Arduino statewide university competition to create a 
+                                company relevant product via an Arduino Uno board. My group created a Sleep Detection
+                                device utilizing a three-point biosensor system: pulse-sensor, EMG, and accelerometer
+                                to detect sleep patterns and movement during sleep.</span>
+                            </section>
                             <section id="tab-item-3"></section>
                             <section id="tab-item-4"></section>
-
-
-
                         </div>
                     </div>
 
                 </div>
             </div>
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
         </div>
-  
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
